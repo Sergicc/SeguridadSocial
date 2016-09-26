@@ -24,7 +24,7 @@ public class Main {
 seguridadSocial.obtenerPersonaPorNumSS(maria.getNumSS()));
 
         System.out.println("obtenerPersonasRangoSalarial: " +
-seguridadSocial.obtenerPersonasRangoSalarial(23000.00, 45000.00));
+seguridadSocial.obtenerPersonasRangoSalarial(50000.00, 70000.00));
 
         System.out.println("obtenerPersonasMayoresQue: " + seguridadSocial.obtenerPersonasMayoresQue(25));
     }

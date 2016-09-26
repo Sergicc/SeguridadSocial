@@ -105,14 +105,14 @@ public class SeguridadSocial {
 
     public List<Persona> obtenerTodas(){
 
-     /*   List<Persona> aux = new ArrayList<>();
+        List<Persona> aux = new ArrayList<>();
 
         for(Persona personaActual : personasList){
             aux.add(personaActual);
         }
         return aux;
-        */
-        return personasList;
+
+        //return personasList;
         //?
     }
 
