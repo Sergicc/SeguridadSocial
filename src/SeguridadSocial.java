@@ -103,6 +103,7 @@ public class SeguridadSocial {
         return aux;
     }
 
+
     public List<Persona> obtenerTodas(){
 
         List<Persona> aux = new ArrayList<>();
