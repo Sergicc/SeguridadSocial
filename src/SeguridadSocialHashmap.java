@@ -18,11 +18,13 @@ public class SeguridadSocialHashmap {
         personaMapSs.put(persona.getNumSS(),persona);
         }
     }
-    public void bajaPersona(Persona persona) {
-        if (personaMapDni.containsKey(persona.getDni()) &&
-            personaMapSs.containsKey(persona.getNumSS())){
-            personaMapDni.remove(persona.getDni(), persona);
-            personaMapSs.remove(persona.getNumSS(), persona);
+    public void bajaPersona(String dni) {
+        if (personaMapDni.containsKey(dni)) {
+
+            Persona persona = personaMapDni.get(dni);
+
+            personaMapDni.remove(dni);
+            personaMapSs.remove(persona.getNumSS());
         }
     }
 
